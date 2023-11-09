@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.portion-one {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    height: 40vh;
+    gap: 50px;
+}
+
+.portion-one-part-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portion-one-main-text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: left;
+}
+
+.placeholder-image {
+    height: 200px;
+    width: 400px;
+    border: 20px;
+    border-color: aliceblue;
+    background-color: gray;
+}
+
+.awesome-text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.portion-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.portion-two-part-two {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.portion-two-images {
+    background-color: #3882F6;
+    height: 300px;
+}
+
+.portion-three {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 100px 500px;
+    background-color: rgb(165, 163, 163);
+}
+
+.p1 {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.p2 {
+    align-self: self-end;
+}
