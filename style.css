@@ -40,7 +40,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 .portion-one-main-text {
@@ -82,23 +82,25 @@ h2 {
     flex-direction: column;
     text-align: center;
     padding: 40px 0px;
+    gap: 20px;
 }
 
 .portion-two-part-two {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 25px;
 }
 
 .portion-two-boxes {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 20%;
+    min-width: 300px;
 }
 
 .portion-two-images {
     background-color: #3882F6;
-    width: 200px;
     height: auto;
     align-items: center;
 }
