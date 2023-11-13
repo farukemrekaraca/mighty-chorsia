@@ -1,1 +1,1 @@
-# odin-landing-page
+Website for the glorious nation of Chorsia and its inhabitants, the mighty Chorses.
