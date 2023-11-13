@@ -141,10 +141,6 @@ li {
     padding: 20px;
 }
 
-.p2 {
-    align-self: self-end;
-}
-
 .portion-four {
     display: flex;
     background-color: #C61F32;
@@ -206,6 +202,7 @@ a {
     }
     .portion-one{
         padding: 1% 10%;
+        gap: 20px;
     }
     .header-links{
         flex-direction: column;
@@ -214,5 +211,10 @@ a {
     }
     .portion-four{
         border-radius: 0px;
+        padding: 10px 0px;
+        width: 100%;
+    }
+    .action{
+        margin: 10px 0px 0px 0px;
     }
 }
